@@ -70,8 +70,8 @@ m.action = (type, x = 0, y = 0) => {
     if (type === 'u') txt = `u 0 ${c}`;
     else {
         [x, y] = transform_xy(x, y);
-        x = x < 1 ? Math.round(x * max_x) : Math.floor(x / deviceInfo.vw * max_x);
-        y = y < 1 ? Math.round(y * max_y) : Math.floor(y / deviceInfo.vh * max_y);
+        x = Math.floor(x / deviceInfo.vw * max_x);
+        y = Math.floor(y / deviceInfo.vh * max_y);
         txt = `${type} 0 ${x} ${y} 50 ${c}`;
     }
     m.proc.socket.write(txt);
