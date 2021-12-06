@@ -10,7 +10,7 @@
 - Android端总能使用性能更好的minicap/minitouch(Airtest常常必须使用JavaCap), 并降低采集帧率, 设备侧的CPU占用明显减少
 
 不足:
-- 不支持iOS设备, 仅支持Android真机和模拟器
+- 不支持iOS设备, 仅支持Android设备及模拟器
 - 没有IDE(但可以借用AirtestIDE来辅助开发)
 
 本项目为自制自用, 仅供参考
