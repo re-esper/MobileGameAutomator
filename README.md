@@ -28,8 +28,7 @@ node app.js
 ```
 node app.js 127.0.0.1:[port]
 ```
-不同模拟器的端口号请参考: https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/
-
+不同模拟器的端口号请参考: https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/<br>
 对于BlueStacks模拟器, 需要将`設定->圖形->圖形引擎模式` 由 `效能` 修改为 `相容性`
 
 
@@ -39,8 +38,7 @@ node app.js 127.0.0.1:[port]
 [My 4 Hearthstone:Mercenaries Scripts](https://github.com/re-esper/MobileGameAutomator/tree/main/examples)
 
 ## API
-此框架的**API**大致与[Airtest](https://github.com/AirtestProject/Airtest)相同, 除未提供文字输入功能 (游戏挂机通常无此需求, 若一定需要可以考虑使用模拟器剪贴板实现)
-
+此框架的**API**大致与[Airtest](https://github.com/AirtestProject/Airtest)相同, 除未提供文字输入功能 (游戏挂机通常无此需求, 若一定需要可利用模拟器剪贴板实现)<br>
 具体请参考: [engine.js](https://github.com/re-esper/MobileGameAutomator/blob/main/engine/engine.js)
 
 ## Third-party Libraries
