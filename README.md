@@ -29,8 +29,7 @@ node app.js
 node app.js 127.0.0.1:[port]
 ```
 不同模拟器的端口号请参考 [这里](https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/#2)<br>
-对于BlueStacks模拟器, 需要将`設定->圖形->圖形引擎模式` 由 `效能` 修改为 `相容性`<br>
-对于逍遥模拟器, 推荐将 `系统设置->显示->画面防抖动` 设置为 `关闭`
+对于BlueStacks模拟器, 需要将`設定->圖形->圖形引擎模式` 由 `效能` 修改为 `相容性`
 
 ## Examples
 [My 4 Hearthstone:Mercenaries Scripts](https://github.com/re-esper/MobileGameAutomator/tree/main/examples)
