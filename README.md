@@ -7,7 +7,7 @@
 
 改进点:
 - 改进实现(缓存机制/截屏复用), 改变部分算法(RGB识图等), 脚本侧的CPU占用大幅减少
-- Android端总能使用性能更好的minicap/minitouch(Airtest常必须使用JavaCap), 并降低采集帧率, 设备侧的CPU占用明显减少
+- Android端总能使用性能更好的minicap/minitouch(Airtest常常必须使用JavaCap), 并降低采集帧率, 设备侧的CPU占用明显减少
 
 不足:
 - 不支持iOS设备, 仅支持Android真机和模拟器
@@ -29,6 +29,11 @@ node app.js
 node app.js 127.0.0.1:[port]
 ```
 不同模拟器的端口号请参考: https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/
+
+对于BlueStacks模拟器, 需要将`設定->圖形->圖形引擎模式` 由 `效能` 修改为 `相容性`
+
+
+
 
 ## Examples
 [My 4 Hearthstone:Mercenaries Scripts](https://github.com/re-esper/MobileGameAutomator/tree/main/examples)
