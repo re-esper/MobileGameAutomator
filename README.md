@@ -28,7 +28,7 @@ node app.js
 ```
 node app.js 127.0.0.1:[port]
 ```
-不同模拟器的端口号请参考: https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/<br>
+不同模拟器的端口号请参考: https://airtest.doc.io.netease.com/IDEdocs/device_connection/3_emulator_connection/#2<br>
 对于BlueStacks模拟器, 需要将`設定->圖形->圖形引擎模式` 由 `效能` 修改为 `相容性`
 
 
