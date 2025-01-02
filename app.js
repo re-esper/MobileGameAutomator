@@ -1,8 +1,6 @@
-const bot = require('./engine/engine');
+require('./engine/engine');
 
 (async () => {
-    await bot.init(1280, 720);
-    console.log("engine initialized");
+    await InitEngine(1920, 1080);
+    console.log("engine initialized");	
 })();
-
-
