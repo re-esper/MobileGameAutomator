@@ -1,5 +1,5 @@
 'use strict';
-const { deviceInfo, execAdb, execAdbSocket, killAdbProc } = require('./common'),
+const { deviceInfo, execAdb, execAdbSocket, killAdbProc } = require('./device'),
     path = require('path'),
     conf = require('./config');
 

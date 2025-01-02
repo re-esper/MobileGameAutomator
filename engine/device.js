@@ -4,7 +4,7 @@ const cp = require('child_process'),
     net = require('net'),
     assert = require('assert');
 
-const m = module.exports = {
+module.exports = {
     initDevice, execSync, execAdb, execAdbSocket, killAdbProc,
     deviceInfo: {}
 };
@@ -96,7 +96,7 @@ function initDevice(vw, vh, serial) {
         adb += ` -s ${serial}`;
     }
 
-    const info = m.deviceInfo;
+    const info = module.exports.deviceInfo;
     info.abi = execAdb("shell -x getprop ro.product.cpu.abi");
     if (info.abi == "") {
         process.exit(1);
